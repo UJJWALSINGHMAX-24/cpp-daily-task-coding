@@ -46,7 +46,7 @@ int main()
         {
             ShowHistory(CalculatorHistory);
         }
-        else if (Choice == 'C' || Choice == 'c') // FIX 2: 'h' ki jagah 'c'
+        else if (Choice == 'C' || Choice == 'c')
         {
             CalculatorHistory.clear();
             cout << "History and Memory Clear Successfully\n";
@@ -73,7 +73,7 @@ int main()
                 Result = Num1 - Num2;
                 Record = to_string(Num1) + " - " + to_string(Num2) + " = " + to_string(Result);
             }
-            else if (Choice == '*') // FIX 3: '-' ki jagah '*'
+            else if (Choice == '*')
             {
                 Result = Num1 * Num2;
                 Record = to_string(Num1) + " * " + to_string(Num2) + " = " + to_string(Result);
